@@ -1,13 +1,16 @@
 package com.bolasinarmas.latihanactivity;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener{
 
     Button btnClosed, btnStart_activity;
     @Override
@@ -48,5 +51,17 @@ public class MainActivity extends AppCompatActivity {
         Toast.makeText(this,"Activity:onStop",Toast.LENGTH_SHORT).show();
     }
 
-
+    @Override
+    public void onClick(View view) {
+        switch (view.getId()) {
+            case R.id.btn_start_activity:
+                Intent newActivity = new Intent(Intent.ACTION_VIEW);
+                newActivity.setData(Uri.parse("https://tass.com/"));
+                startActivity(newActivity);
+                break;
+            case R.id.btn_closed:
+                finish();
+                break;
+        }
+    }
 }
