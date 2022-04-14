@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/enrico_aldi_suhanto"
+        android:background="#a6281f"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/_191103517"
+        android:background="#2892bd"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/enricosuhanto_gmail_com"
+        android:background="#c28d11"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/_6a3"
+        android:background="#8fc41d"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/parit_haji_husin_2"
+        android:background="#801dd1"
+        android:textColor="#FFFFFF"
+        android:gravity="center"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:textSize="25sp"
+        />
+</LinearLayout>

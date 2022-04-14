@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Email.com</string>
+    <string name="kepada">kepada</string>
+    <string name="subjek">subjek</string>
+    <string name="pesan">pesan</string>
+    <string name="kirim">kirim</string>
+</resources>

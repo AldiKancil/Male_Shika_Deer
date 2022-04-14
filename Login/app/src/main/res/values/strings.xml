@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Login</string>
+    <string name="form_log_masuk">form_log_masuk</string>
+    <string name="masukkan_nama_pengguna">masukkan_nama_pengguna</string>
+    <string name="masukkan_kata_laluan">masukkan_kata_laluan</string>
+    <string name="log_masuk">log_masuk</string>
+    <string name="selamat_datang_ke_app_kami">selamat_datang_ke_app_kami</string>
+    <string name="todo">todo</string>
+    <string name="enrico_aldi_suhanto">enrico_aldi_suhanto</string>
+</resources>

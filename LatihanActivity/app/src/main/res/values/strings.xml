@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">LatihanActivity</string>
+    <string name="buka_activity_lain">buka_activity_lain</string>
+    <string name="tutup_activity">tutup_activity</string>
+</resources>

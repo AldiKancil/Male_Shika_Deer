@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AktivitiSelamatDatang">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selamat_datang_ke_app_kami"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:textStyle="normal|bold"
+        android:id="@+id/tvSelamatDatang"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_1"
+        android:scaleType="fitXY"
+        android:layout_gravity="center"
+        android:src="sangkancil"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/enrico_aldi_suhanto"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textStyle="italic"
+        android:id="@+id/tvNama"
+        />
+</LinearLayout>

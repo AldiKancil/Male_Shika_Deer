@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">EditTextandButtonApp</string>
+    <string name="nama">nama</string>
+    <string name="isikan_nama_anda">isikan_nama_anda</string>
+    <string name="ok">ok</string>
+</resources>

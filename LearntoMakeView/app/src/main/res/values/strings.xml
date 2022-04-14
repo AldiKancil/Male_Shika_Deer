@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">LearntoMakeView</string>
+    <string-array name="jenjang">
+        <item>TK</item>
+        <item>SD</item>
+        <item>SMP</item>
+        <item>SMA</item>
+    </string-array>
+</resources>
